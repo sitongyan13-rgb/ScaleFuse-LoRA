@@ -1,0 +1,7 @@
+name: odinw_pothole_domain_prompt_fusion_lora_r16_smoke_eval
+action: test
+native_config: configs/proposed/odinw_pothole_domain_prompt_fusion_lora_r16_smoke.py
+seed: 42
+task: pothole
+method: domain_prompt_fusion_lora_r16_smoke
+visualize: true

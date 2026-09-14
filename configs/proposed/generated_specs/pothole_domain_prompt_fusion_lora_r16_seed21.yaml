@@ -1,0 +1,6 @@
+name: odinw_pothole_domain_prompt_fusion_lora_r16_seed21
+action: train
+native_config: configs/proposed/odinw_pothole_domain_prompt_fusion_lora_r16.py
+seed: 21
+task: pothole
+method: domain_prompt_fusion_lora_r16
