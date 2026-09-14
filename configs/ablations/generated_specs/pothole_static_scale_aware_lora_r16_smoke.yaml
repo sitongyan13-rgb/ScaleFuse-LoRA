@@ -1,0 +1,6 @@
+name: odinw_pothole_static_scale_aware_lora_r16_smoke
+action: train
+native_config: configs/ablations/odinw_pothole_static_scale_aware_lora_r16_smoke.py
+seed: 42
+task: pothole
+method: static_scale_aware_lora_r16_smoke

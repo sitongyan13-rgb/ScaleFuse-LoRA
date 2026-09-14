@@ -1,0 +1,6 @@
+name: odinw_pothole_uniform_prompt_lora_r16_seed0
+action: train
+native_config: configs/ablations/odinw_pothole_uniform_prompt_lora_r16.py
+seed: 0
+task: pothole
+method: uniform_prompt_lora_r16

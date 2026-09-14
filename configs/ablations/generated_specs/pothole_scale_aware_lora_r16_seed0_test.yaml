@@ -1,0 +1,8 @@
+name: odinw_pothole_scale_aware_lora_r16_seed0_test
+action: test
+native_config: configs/proposed/odinw_pothole_scale_aware_lora_r16_test.py
+seed: 0
+task: pothole_test
+method: scale_aware_lora_r16_frozen_test
+visualize: false
+predictions: experiments/raw_predictions/pothole_dynamic_scale_seed0_test.pkl

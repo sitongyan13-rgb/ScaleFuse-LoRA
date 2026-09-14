@@ -1,0 +1,7 @@
+name: odinw_pothole_static_scale_aware_lora_r16_seed42_validation
+action: test
+native_config: configs/ablations/odinw_pothole_static_scale_aware_lora_r16.py
+seed: 42
+task: pothole_validation
+method: static_scale_aware_lora_r16_independent_reload
+visualize: true

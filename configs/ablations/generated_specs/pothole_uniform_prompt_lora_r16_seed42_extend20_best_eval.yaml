@@ -1,0 +1,7 @@
+name: odinw_pothole_uniform_prompt_lora_r16_seed42_extend20_best_eval
+action: test
+native_config: configs/ablations/odinw_pothole_uniform_prompt_lora_r16_extend20.py
+seed: 42
+task: pothole_validation
+method: uniform_prompt_lora_r16_epoch13_independent_reload
+visualize: false
