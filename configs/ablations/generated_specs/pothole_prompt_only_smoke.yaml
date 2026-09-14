@@ -1,0 +1,6 @@
+name: odinw_pothole_prompt_only_smoke
+action: train
+native_config: configs/ablations/odinw_pothole_prompt_only_smoke.py
+seed: 42
+task: pothole
+method: prompt_only_smoke

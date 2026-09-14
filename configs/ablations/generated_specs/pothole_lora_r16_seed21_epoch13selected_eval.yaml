@@ -1,0 +1,7 @@
+name: odinw_pothole_lora_r16_seed21_epoch13selected_validation
+action: test
+native_config: configs/ablations/odinw_pothole_lora_r16_extend13.py
+seed: 21
+task: pothole_validation
+method: lora_r16_epoch13selected_independent_reload
+visualize: true

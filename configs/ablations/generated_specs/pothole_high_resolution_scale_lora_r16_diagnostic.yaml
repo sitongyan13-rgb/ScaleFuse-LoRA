@@ -1,0 +1,6 @@
+name: odinw_pothole_high_resolution_scale_lora_r16_diagnostic
+action: train
+native_config: configs/proposed/odinw_pothole_high_resolution_scale_lora_r16_diagnostic.py
+seed: 42
+task: pothole
+method: high_resolution_scale_lora_r16_diagnostic

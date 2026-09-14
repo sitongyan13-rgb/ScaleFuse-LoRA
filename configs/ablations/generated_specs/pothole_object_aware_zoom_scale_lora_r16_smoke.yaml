@@ -1,0 +1,6 @@
+name: odinw_pothole_object_aware_zoom_scale_lora_r16_smoke
+action: train
+native_config: configs/proposed/odinw_pothole_object_aware_zoom_scale_lora_r16_smoke.py
+seed: 42
+task: pothole
+method: object_aware_zoom_scale_lora_r16_smoke

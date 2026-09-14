@@ -1,0 +1,6 @@
+name: odinw_pothole_lora_r16_seed42_extend20
+action: train
+native_config: configs/ablations/odinw_pothole_lora_r16_extend20.py
+seed: 42
+task: pothole
+method: lora_r16_extend20

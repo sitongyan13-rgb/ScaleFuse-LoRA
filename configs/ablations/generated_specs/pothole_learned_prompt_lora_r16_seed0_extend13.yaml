@@ -1,0 +1,7 @@
+name: odinw_pothole_learned_prompt_lora_r16_seed0_extend13
+action: train
+native_config: configs/ablations/odinw_pothole_learned_prompt_lora_r16_extend13.py
+seed: 0
+task: pothole
+method: learned_prompt_lora_r16_extend13
+

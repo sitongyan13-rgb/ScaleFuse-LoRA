@@ -1,0 +1,7 @@
+name: odinw_pothole_object_aware_zoom_scale_lora_r16_seed42_validation
+action: test
+native_config: configs/proposed/odinw_pothole_object_aware_zoom_scale_lora_r16.py
+seed: 42
+task: pothole_validation
+method: object_aware_zoom_scale_lora_r16_independent_reload
+visualize: true

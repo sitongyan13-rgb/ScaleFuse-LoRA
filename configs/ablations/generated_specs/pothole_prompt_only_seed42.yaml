@@ -1,0 +1,6 @@
+name: odinw_pothole_prompt_only_seed42
+action: train
+native_config: configs/ablations/odinw_pothole_prompt_only.py
+seed: 42
+task: pothole
+method: prompt_only
