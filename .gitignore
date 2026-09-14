@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Environments and editors
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Build products
+build/
+dist/
+*.egg-info/
+
+# External dependencies
+third_party/
+
+# Datasets, weights, checkpoints, and experiment outputs
+data/
+datasets/
+downloads/
+weights/
+experiments/
+results/
+reports/
+
+# Documents and local artifacts
+*.docx
+*.pdf
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.zip
+*.tar
+*.gz
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
