@@ -1,0 +1,6 @@
+name: odinw_pothole_full_finetune_seed0
+action: train
+native_config: configs/baselines/generated/pothole_full_finetune.py
+seed: 0
+task: pothole
+trainable: all

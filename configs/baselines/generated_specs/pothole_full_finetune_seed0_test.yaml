@@ -1,0 +1,6 @@
+name: odinw_pothole_full_finetune_seed0_test
+action: test
+native_config: configs/baselines/generated/pothole_full_finetune_test.py
+seed: 0
+task: pothole_test
+visualize: true

@@ -1,0 +1,7 @@
+name: odinw_pothole_frozen_text_seed0_best_eval
+action: test
+native_config: configs/baselines/generated/pothole_frozen_text.py
+seed: 0
+task: pothole
+source_run: odinw_pothole_frozen_text_seed0
+visualize: true

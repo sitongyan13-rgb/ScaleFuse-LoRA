@@ -1,0 +1,6 @@
+name: odinw_pothole_frozen_text_seed0
+action: train
+native_config: configs/baselines/generated/pothole_frozen_text.py
+seed: 0
+task: pothole
+trainable: all_except_language_model

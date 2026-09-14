@@ -1,0 +1,6 @@
+name: odinw_pothole_frozen_text_seed21_test
+action: test
+native_config: configs/baselines/generated/pothole_frozen_text_test.py
+seed: 21
+task: pothole_test
+visualize: true
