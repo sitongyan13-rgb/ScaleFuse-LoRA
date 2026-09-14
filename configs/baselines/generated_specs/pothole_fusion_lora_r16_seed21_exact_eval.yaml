@@ -1,0 +1,8 @@
+name: odinw_pothole_fusion_lora_r16_seed21_exact_eval
+action: test
+native_config: configs/baselines/odinw_pothole_fusion_lora_r16.py
+seed: 21
+task: pothole_validation
+method: fusion_lora_r16_independent_reload
+visualize: false
+predictions: experiments/raw_predictions/pothole_fusion_lora_r16_seed21_validation.pkl

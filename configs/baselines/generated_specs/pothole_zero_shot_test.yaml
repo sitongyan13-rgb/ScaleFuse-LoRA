@@ -1,0 +1,7 @@
+name: odinw_pothole_zero_shot_test
+action: test
+native_config: configs/baselines/generated/pothole_full_finetune_test.py
+checkpoint: weights/groundingdino_swint_ogc_mmdet-822d7e9d.pth
+seed: 42
+task: pothole_test
+visualize: true

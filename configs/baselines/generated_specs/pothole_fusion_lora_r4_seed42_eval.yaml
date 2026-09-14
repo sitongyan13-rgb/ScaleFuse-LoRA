@@ -1,0 +1,7 @@
+name: odinw_pothole_fusion_lora_r4_seed42_best_eval
+action: test
+native_config: configs/baselines/odinw_pothole_fusion_lora_r4.py
+seed: 42
+task: pothole
+method: fusion_lora_r4
+visualize: true

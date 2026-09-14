@@ -1,0 +1,7 @@
+name: odinw_pothole_fusion_lora_r8_smoke
+action: train
+native_config: configs/baselines/odinw_pothole_fusion_lora_r8_smoke.py
+seed: 42
+task: pothole
+method: fusion_lora_r8
+
