@@ -1,0 +1,6 @@
+name: odinw13_zero_shot
+action: test
+native_config: configs/baselines/odinw13_zero_shot.py
+seed: 42
+trainable: none
+visualize: false

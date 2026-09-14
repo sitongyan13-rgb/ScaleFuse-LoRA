@@ -1,0 +1,6 @@
+name: odinw_aquarium_full_finetune
+action: train
+native_config: configs/baselines/odinw_aquarium_full_finetune.py
+seed: 42
+trainable: all
+

@@ -1,0 +1,19 @@
+framework: mmdetection-3.3.0
+model: Grounding DINO Swin-T
+checkpoint: weights/groundingdino_swint_ogc_mmdet-822d7e9d.pth
+dataset: ODinW-13
+protocol: per-task
+seed: 42
+input_scale: [800, 1333]
+train_augmentation:
+  - horizontal_flip_probability_0.5
+  - fixed_scale_keep_ratio
+validation_augmentation:
+  - fixed_scale_keep_ratio
+epochs: 12
+batch_size_per_gpu: 1
+gradient_accumulation: 4
+mixed_precision: true
+prompt: "class names normalized by MMDetection, joined as '<class>. '"
+evaluation: "COCO bbox AP per task; report all 13 tasks and unweighted macro mean"
+

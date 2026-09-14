@@ -1,0 +1,6 @@
+name: odinw_aquarium_frozen_text
+action: train
+native_config: configs/baselines/odinw_aquarium_frozen_text.py
+seed: 42
+trainable: all_except_language_model
+

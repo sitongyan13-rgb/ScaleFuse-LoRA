@@ -1,0 +1,7 @@
+name: odinw_aquarium_adapter
+action: train
+native_config: configs/baselines/odinw_aquarium_adapter.py
+seed: 42
+trainable: vision_and_text_residual_adapters_only
+adapter_bottleneck: 16
+
